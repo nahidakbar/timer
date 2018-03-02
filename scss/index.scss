@@ -1,0 +1,46 @@
+$color0: #FFFFFF;
+$color1: #772432;
+$color2: #004165;
+$color3: #F2DF74;
+$color4: #A9B2B1;
+$color5: #CD202C;
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(lighten($color3, 25%), lighten($color3, 50%));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 300px;
+  font-size: 1em;
+}
+
+body, h1, div, p, h2 {
+  box-sizing: border-box;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: 0 0 0 0;
+}
+
+button, select {
+  background-color: $color0;
+  border: 1px solid $color1;
+  color: $color1;
+  font-size: 1em;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em 1em 1em 1em;
+  background-color: white;
+
+  h1, h2, h3, p, span {
+    color: $color1;
+    text-shadow:
+     -1px -1px 0 #ffffff,
+      1px -1px 0 #ffffff,
+      -1px 1px 0 #ffffff,
+       1px 1px 0 #ffffff;
+  }
+
+}

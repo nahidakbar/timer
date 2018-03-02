@@ -1,0 +1,25 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "builder": "node ./node_modules/js-client-boilderplate-nahid/index.js --base $PWD --dist docs --js js/index.js --scss scss/index.scss --static static --command",
+    "build": "npm run builder -- build",
+    "watch": "npm run builder -- watch",
+    "release": "npm run builder -- release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahidakbar/timer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahidakbar/timer/issues"
+  },
+  "homepage": "https://github.com/nahidakbar/timer#readme",
+  "devDependencies": {
+    "js-client-boilderplate-nahid": "0.0.9"
+  }
+}

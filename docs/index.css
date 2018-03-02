@@ -1,0 +1,34 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(#fdfae9, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 300px;
+  font-size: 1em;
+}
+
+body, h1, div, p, h2 {
+  box-sizing: border-box;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: 0 0 0 0;
+}
+
+button, select {
+  background-color: #FFFFFF;
+  border: 1px solid #772432;
+  color: #772432;
+  font-size: 1em;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em 1em 1em 1em;
+  background-color: white;
+}
+
+.container h1, .container h2, .container h3, .container p, .container span {
+  color: #772432;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
